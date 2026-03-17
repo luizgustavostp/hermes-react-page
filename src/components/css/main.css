@@ -1,0 +1,75 @@
+.main-body {
+    height: 100vh;
+    transform: translateY(-222px);
+
+}
+.prices {
+    background-color: var(--purple-200);
+    height: fit-content;
+    padding-bottom: 256px;
+    transform: translateY(-8px);
+    h1 {
+        padding-top: 128px;
+    }
+}
+.h1-bold {
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.h2-bold {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    text-align: center; 
+
+}
+.flex-aside {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+
+    height: fit-content;
+    gap: 64px;
+    margin-top: 128px;
+}
+.light1 {
+    height: 500px;
+    width: 80px;
+    background-color: var(--light);
+    filter: blur(120px);
+    position: absolute;
+    transform: translate(-60px,-700px);
+    opacity: 0.45;
+}
+.light2 {
+    height: 300px;
+    width: 300px;
+    background-color: var(--light);
+    filter: blur(200px);
+    position: absolute;
+    transform: translate(1000px,-700px);
+    opacity: 0.35;
+    z-index: -1;
+}
+.light3 {
+    height: 200px;
+    width: 200px;
+    background-color: var(--light);
+    filter: blur(200px);
+    position: absolute;
+    transform: translate(1000px,-200px);
+    opacity: 0.35;
+    z-index: 999999;
+}
+.light4 {
+    height: 400px;
+    width: 400px;
+    background-color: var(--light);
+    filter: blur(200px);
+    position: absolute;
+    transform: translate(1000px,-800px);
+    opacity: 0.35;
+    z-index: -1;
+}

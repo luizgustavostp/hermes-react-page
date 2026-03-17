@@ -1,0 +1,24 @@
+.Counter {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 500ms ease-in-out;
+    width: fit-content;
+    margin: auto;
+    margin-top: 64px;
+    h1 {
+        font-weight: 300;
+    }
+    .green-dot {
+        transform: translate(0);
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(76, 203, 76);
+        margin-right: 32px;
+        box-shadow: rgba(0, 255, 4, 0.449) 0px 0px 70px 4px;
+    }   
+
+}

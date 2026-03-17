@@ -1,0 +1,35 @@
+* {
+    font-family: 'Poppins';
+    user-select: none;
+}
+html,body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+*::selection {
+    background-color: none
+    ;
+}
+:root {
+    --light: #ea7d01;
+    --gray-000:#989898;
+    --gray-100:#3f3f3f;
+    --back: #e2e2e2;
+    --purple-100:#8b60a2;
+    --purple-200:#282150;
+    --purple-300:#231e41;
+}
+svg {
+    margin: 0;
+    padding: 0;
+}
+.marker-italic {
+    display: inline;
+    font-style: italic;
+    font-weight: 300;
+}

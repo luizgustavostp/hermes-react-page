@@ -1,0 +1,53 @@
+Header {
+    width: 100vw;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+}
+.titles {
+    h1 {
+    font-size: 72px;
+    color: var(--gray-100);
+    font-weight: 700;
+    line-height: 0.95;
+    animation-delay: 1.5s;
+    overflow: hidden;
+    white-space: nowrap;
+    animation-name: keyanimation;
+    animation-duration: 2s;
+    width: 0%;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+}
+
+h1:first-child {
+    animation-timing-function: ease;
+    animation-delay: 0s !important;
+
+}   
+.mark {
+    display: inline;
+    color: var(--purple-100);
+}
+
+button {
+    font-size: 24px;
+}
+@keyframes keyanimation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+footer {
+    z-index: 9999;
+    transform: translateY(300px);
+    display: grid;
+    padding: 32px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    background-color: var(--purple-300);
+    ul {
+        color: var(--gray-000);
+        list-style-type: none;
+        font-size: 24px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+}

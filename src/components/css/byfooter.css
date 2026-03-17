@@ -1,0 +1,29 @@
+.section-2 {
+    height: fit-content;
+    background-color: var(--purple-200);
+    display: block;
+    color: white;
+    transform: translateY(333px);
+    text-align: center;
+    padding-top: 64px;
+    h1 {
+        font-size: 64px;
+        margin: 0 24px;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+}
+#about-hermes {
+    font-size: 72px;
+    font-weight: 500;
+    margin-top: 356px;
+}
+#about-hermes-h2 {
+    margin-top: 32px;
+    padding-bottom: 324px;
+    font-size: 32px;
+    line-height: 1.6;
+}

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#h2-rights {
+  transform: translateY(300px);
+  color: var(--gray-000);
+  font-weight: 400;
+  text-align: center;
+  padding: 24px;
+  background-color: var(--purple-300);
+}
+@media (max-width:1440px) {
+  #coinPC {
+    height: 512px !important;
+    width: 512px !important;
+    margin: 0;
+  }
+}
+@media (max-width:1337px) {
+  #coinPC {
+    height: 512px !important;
+    width: 512px !important;
+    margin: 0;
+    transform: translateY(152px) !important;
+  }
+  .titles {
+    transform: translateY(256px);
+  }
+  .prices {
+    transform: translateY(212px) !important;
+  }
+  .Wave-svg {
+    transform: translateY(224px);
+  }
+}
+@media (max-width:888px) {
+  .titles {
+    transform: translateY(132px);
+    h1 {
+      font-size: 52px !important;
+    }
+  }
+  #about-hermes-h2 {
+    font-size: 24px !important;
+  }
+  #coinPC {
+    transform: translateY(64px) !important;
+  }
+  .flex-aside {
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+  }
+  .prices {
+    transform: translateY(144px) !important;
+  }
+  .Wave-svg {
+    transform: translateY(152px);
+  }
+  .section-2 {
+    transform: translateY(712px) !important;
+    h1 {
+      font-size: 44px !important;
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+  }
+  .h1-bold {
+    font-size: 44px !important;
+  }
+  .h2-bold {
+    font-size: 24px !important;
+  }
+  footer {
+    transform: translateY(488px) !important;
+
+  }
+  #h2-rights {
+    transform: translateY(488px) !important;
+  }
+}
+@media (max-width:632px) {
+   .titles {
+    h1 {
+      font-size: 2rem !important;
+    }
+   }
+   #coinPC {
+    width: 300px !important;
+    height: 300px !important;
+    transform: translateY(-64px) !important;
+   }
+   .h1-bold {
+    line-height: 1;
+    margin-bottom: 24px;
+   }
+   .Counter {
+    h1 {
+      margin-right: 8px !important;
+      font-size: 24px !important;
+    }
+    div {
+      margin: 0 !important;
+      height: 24px !important;
+      width: 24px !important;
+    }
+   }
+   .section-2 {
+    transform: translateY(488px) !important;
+    h1:first-child {
+      margin-bottom: 24px !important;
+    }
+    h2 {
+      margin: 32px;
+      font-size: 24px !important;
+    }
+   }
+   .card {
+    width: 365px !important;
+      li {
+        font-size: 16px;
+      }
+   }
+   footer {
+    padding: 8px;
+    transform: translateY(222px) !important;
+    li {
+      font-size: 16px;
+    }
+   }
+    #h2-rights {
+      transform: translateY(200px) !important;
+    }
+}

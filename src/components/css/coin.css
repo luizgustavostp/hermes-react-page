@@ -1,0 +1,13 @@
+img {
+    height: 800px;
+    width: 800px;
+}
+#coinPC {
+    height: 624px;
+    width: 624px;
+    margin-left:40px;
+    transform: translateY(80px);
+    user-select: none;
+    pointer-events: none;
+    z-index: 99;
+}
