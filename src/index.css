@@ -4,18 +4,16 @@
   box-sizing: border-box;
 }
 #h2-rights {
-  transform: translateY(300px);
   color: var(--gray-000);
   font-weight: 400;
   text-align: center;
   padding: 24px;
   background-color: var(--purple-300);
 }
+
 @media (max-width:1440px) {
-  #coinPC {
-    height: 512px !important;
-    width: 512px !important;
-    margin: 0;
+  .titles {
+    transform: translateY(88px);
   }
 }
 @media (max-width:1337px) {
@@ -34,10 +32,14 @@
   .Wave-svg {
     transform: translateY(224px);
   }
+  .light4,  .light3 {
+    display: none;
+  }
+
 }
 @media (max-width:888px) {
   .titles {
-    transform: translateY(132px);
+    transform: translateY(168px);
     h1 {
       font-size: 52px !important;
     }
@@ -46,7 +48,7 @@
     font-size: 24px !important;
   }
   #coinPC {
-    transform: translateY(64px) !important;
+    transform: translateY(124px) !important;
   }
   .flex-aside {
     flex-wrap: wrap;
@@ -60,7 +62,6 @@
     transform: translateY(152px);
   }
   .section-2 {
-    transform: translateY(712px) !important;
     h1 {
       font-size: 44px !important;
       line-height: 1.1;
@@ -72,14 +73,7 @@
   }
   .h2-bold {
     font-size: 24px !important;
-  }
-  footer {
-    transform: translateY(488px) !important;
-
-  }
-  #h2-rights {
-    transform: translateY(488px) !important;
-  }
+  }   
 }
 @media (max-width:632px) {
    .titles {
@@ -87,10 +81,13 @@
       font-size: 2rem !important;
     }
    }
+   #about-hermes-h2 {
+    margin-bottom: 0px;
+   }
    #coinPC {
     width: 300px !important;
     height: 300px !important;
-    transform: translateY(-64px) !important;
+    transform: translateY(72px) !important;
    }
    .h1-bold {
     line-height: 1;
@@ -108,7 +105,6 @@
     }
    }
    .section-2 {
-    transform: translateY(488px) !important;
     h1:first-child {
       margin-bottom: 24px !important;
     }
@@ -123,14 +119,12 @@
         font-size: 16px;
       }
    }
-   footer {
-    padding: 8px;
-    transform: translateY(222px) !important;
+   footer { 
     li {
       font-size: 16px;
     }
    }
-    #h2-rights {
-      transform: translateY(200px) !important;
-    }
+}
+.main-body {
+  overflow-x: hidden;
 }

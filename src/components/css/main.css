@@ -1,7 +1,5 @@
 .main-body {
-    height: 100vh;
-    transform: translateY(-222px);
-
+    margin: -20px;
 }
 .prices {
     background-color: var(--purple-200);

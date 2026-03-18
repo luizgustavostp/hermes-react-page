@@ -1,6 +1,5 @@
 footer {
     z-index: 9999;
-    transform: translateY(300px);
     display: grid;
     padding: 32px;
     align-items: center;
