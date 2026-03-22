@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 #h2-rights {
+  font-size:  16px;
   color: var(--gray-000);
   font-weight: 400;
   text-align: center;
@@ -127,4 +128,7 @@
 }
 .main-body {
   overflow-x: hidden;
+}
+.Wave-svg {
+  transform: translateY(8px);
 }

@@ -36,3 +36,6 @@ svg {
 a {
     text-decoration: none !important;
 }
+section {
+    padding: 64px;
+}

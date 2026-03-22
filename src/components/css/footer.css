@@ -6,10 +6,11 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     background-color: var(--purple-300);
+    place-items: center;
     ul {
         color: var(--gray-000);
         list-style-type: none;
-        font-size: 24px;
+        font-size: 16px;
         gap: 16px;
         display: flex;
         flex-direction: column;

@@ -1,5 +1,4 @@
 .Counter {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +7,9 @@
     width: fit-content;
     margin: auto;
     margin-top: 64px;
+    padding-bottom: 128px;
     h1 {
+        font-size: 44px;
         font-weight: 300;
     }
     .green-dot {
@@ -16,8 +17,8 @@
         height: 50px;
         width: 50px;
         border-radius: 50%;
-        background-color: rgb(76, 203, 76);
-        margin-right: 32px;
+        background-color: rgb(57, 255, 57);
+        
         box-shadow: rgba(0, 255, 4, 0.449) 0px 0px 70px 4px;
     }   
 
