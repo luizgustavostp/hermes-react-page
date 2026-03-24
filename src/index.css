@@ -50,6 +50,7 @@
     transform: translateY(124px) !important;
   }
   .flex-aside {
+    margin-top: 0 !important;
     flex-wrap: wrap;
     width: fit-content;
     justify-content: center;
@@ -69,8 +70,10 @@
     font-size: 44px !important;
   }
   .h2-bold {
-    font-size: 18px !important;
+    font-weight: 300;
+    font-size: 24px;
     margin: 44px;
+    margin-top: 0;
   }   
 }
 @media (max-width:632px) {

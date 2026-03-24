@@ -33,6 +33,7 @@
     display: flex;
     margin: auto;
     min-width: 300px;
+    max-width: 800px;
     width: fit-content;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,5 +41,6 @@
     padding: 0;
 }
 #what-more {
+    margin: 8px;
     margin-top: 64px;
 }
