@@ -6,7 +6,7 @@ export default function ByFooter() {
         
         <section className='prices' id='prices'>
             <h1 className='h1-bold'>Seja um dos grandes.</h1>
-            <h2 className='h2-bold'>Use o dinheiro, como ele deve ser <span className="marker-italic">usado</span></h2>
+            <h2 className='h2-bold'>Use o dinheiro, como ele merece ser usado.</h2>
             <aside className='flex-aside'>
                 <CardFree />
                 <CardBuy />

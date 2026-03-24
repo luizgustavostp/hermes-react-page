@@ -1,21 +1,21 @@
 .Avaliation {
     margin: auto;   
-    background-color: var(--purple-300);
+    background: rgb(10, 4, 43);
     border-radius: 16px;
     padding:16px;
     transform: translate(0);
     margin: 8px;
-    border: 0.1px solid rgba(255, 255, 255, 0.1);
+    border: 0.1px solid rgba(255, 255, 255, 0.4);
     width: 365;
     min-height: 100px;
-    transition: 100ms;
+    transition: 200ms;
     cursor: pointer;
     box-shadow: 8px 8px 32px rgba(0, 0, 0, 0.1);
     &:hover {
         scale: 1.05;
-        border: 0.2px solid rgba(255, 255, 255, 0.2 );
-        background-color: var(--purple-200);
-        box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.1);
+        border: 0.2px solid rgb(146, 157, 255);
+        background: rgb(10, 4, 43);
+        box-shadow: 00px 16px 44px rgba(100, 95, 255, 0.1);
         p {
             color: white;
         }

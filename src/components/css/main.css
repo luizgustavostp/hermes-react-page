@@ -2,9 +2,10 @@
     overflow: visible;
 }
 .prices {
-    background-color: var(--purple-300);
+    background: #231E41;
+    background: linear-gradient(180deg, rgba(35, 30, 65, 1) 0%, rgb(2, 3, 16) 100%);
     height: fit-content;
-    padding-bottom: 124px;
+    padding-bottom: 144px;
 }
 .h1-bold {
     font-size: 64px;
@@ -28,12 +29,13 @@
     margin-top: 128px;
 }
 #fds {
-    font-size: 24px;
+    font-size: 18px !important;
     margin: 16px 0;
     font-weight: 300;
 }
 .family {
-    background-color: var(--purple-300);
+background: RGB(2, 3, 16);
+background: linear-gradient(0deg, rgba(2, 3, 16, 1) 1%, rgba(2, 3, 16, 1) 100%, rgba(0, 0, 0, 1) 50%);
         padding-bottom: 256px;
     .h2-bold {
         font-weight: 300;

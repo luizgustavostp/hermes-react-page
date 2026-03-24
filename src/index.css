@@ -10,7 +10,7 @@
   font-weight: 400;
   text-align: center;
   padding: 24px;
-  background-color: var(--purple-300);
+  background-color: black;
 }
 
 @media (max-width:1440px) {
@@ -69,7 +69,8 @@
     font-size: 44px !important;
   }
   .h2-bold {
-    font-size: 24px !important;
+    font-size: 18px !important;
+    margin: 44px;
   }   
 }
 @media (max-width:632px) {

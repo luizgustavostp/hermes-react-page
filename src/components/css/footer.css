@@ -5,8 +5,9 @@ footer {
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
-    background-color: var(--purple-300);
+    background-color: black;
     place-items: center;
+    border-top: 0.1px solid rgba(23, 84, 236, 0.141);
     ul {
         color: var(--gray-000);
         list-style-type: none;
