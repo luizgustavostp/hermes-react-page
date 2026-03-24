@@ -2,7 +2,8 @@
     color: white;
     text-align: center;
     padding-top: 64px;
-        background: #231E41;
+    background: #231E41;
+    padding: 8px;
     background: linear-gradient(0deg, rgba(35, 30, 65, 1) 0%, rgba(40, 33, 80, 1) 51%); 
     h1 {
         font-size: 64px;
@@ -31,10 +32,12 @@
 #avaliation-section {
     display: flex;
     margin: auto;
+    min-width: 300px;
     width: fit-content;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 #what-more {
     margin-top: 64px;

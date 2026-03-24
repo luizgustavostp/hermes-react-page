@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 #h2-rights {
   font-size:  16px;
   color: var(--gray-000);
@@ -26,9 +27,6 @@
   }
   .titles {
     transform: translateY(256px);
-  }
-  .prices {
-    transform: translateY(212px) !important;
   }
   .Wave-svg {
     transform: translateY(224px);
@@ -56,9 +54,7 @@
     width: fit-content;
     justify-content: center;
   }
-  .prices {
-    transform: translateY(144px) !important;
-  }
+
   .Wave-svg {
     transform: translateY(152px);
   }
@@ -77,6 +73,12 @@
   }   
 }
 @media (max-width:632px) {
+  .family {
+    padding: 8px;
+  }
+  .prices {
+    padding: 8px;
+  }
    .titles {
     h1 {
       font-size: 2rem !important;
@@ -127,8 +129,11 @@
    }
 }
 .main-body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .Wave-svg {
   transform: translateY(8px);
+}
+.prices {
+  overflow-x: hidden !important;
 }

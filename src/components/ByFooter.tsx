@@ -18,6 +18,6 @@ export default function ByFooter() {
             <h1 className="h1-bold">Venha fazer parte da nossa familia</h1>
             <h2 className='h2-bold'>Feito de pessoas, para pessoas que simplesmente querem atingir outro nivel financeiro.</h2>
             <div className="attenpt">Enquanto você tenta tomar uma decisão, os outros estão mudando a sua propria realidade com as ferramentas corretas, a oportunidade que nenhum couch vai te vender.</div>
-                    </section>
+            </section>
     </main>
 }

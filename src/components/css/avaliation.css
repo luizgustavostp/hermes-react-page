@@ -6,9 +6,8 @@
     transform: translate(0);
     margin: 8px;
     border: 0.1px solid rgba(255, 255, 255, 0.1);
-    max-width: 365px;
-    min-width: 200px;
-    height: 200px;
+    width: 365;
+    min-height: 100px;
     transition: 100ms;
     cursor: pointer;
     box-shadow: 8px 8px 32px rgba(0, 0, 0, 0.1);
